@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% load bootstrap4 %}
+
+
+{% block content %}
+
+<div>
+    <form action="{% url 'noticeapp:update' pk=target_notice.pk %}" method="POST">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        <input type="submit" value="글 수정" />
+    </form>
+
+</div>
+    
+{% endblock content %}
+    

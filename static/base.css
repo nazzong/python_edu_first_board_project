@@ -1,0 +1,63 @@
+.header {
+    height: 8rem;
+
+    
+
+    border-radius: 1rem;
+
+    margin: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header div:nth-child(1) h1,
+.footer div:nth-child(1) h2{
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgb(50, 50, 50);
+}
+
+
+
+.footer {
+    height: 6rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer div:nth-child(2) {
+    font-size: 0.8rem;
+    color: rgb(90, 90, 90);
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+    transition: 0.5s;
+
+}
+
+a:hover {
+    color: #38ef;
+}
+
+
+.boardbox {
+    width: 100%;
+    padding: 4rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
